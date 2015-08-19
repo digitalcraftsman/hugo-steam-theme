@@ -1,0 +1,24 @@
+name = "Steam"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+description = "A minimal theme for bloggers."
+homepage = "//github.com/digitalcraftsman/hugo-steam-theme"
+tags = ["", ""]
+features = ["", ""]
+min_version = 0.14
+
+[author]
+  name = "Digitalcraftsman"
+  homepage = "//github.com/digitalcraftsman/"
+
+# Author who used the Vapor theme as foundation for Steam
+[[original]]
+  name = "Tommaso Barbato"
+  homepage = "//torb.at/"
+  repo = "//github.com/epistrephein/Steam"
+
+# Original creator of the Vapor theme
+[[original]]
+	name = "Seth Lilly"
+  homepage = "//www.sethlilly.com/"
+  repo = "//github.com/sethlilly/Vapor"
