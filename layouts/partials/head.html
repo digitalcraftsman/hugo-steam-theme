@@ -19,4 +19,7 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/screen.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/github.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
+
+    {{ "<!-- Stylesheet for theme color -->" | safeHTML }}
+    {{ partial (printf "themes/%s-theme" .Site.Params.themeColor) . }}
 </head>
