@@ -1,0 +1,38 @@
+baseurl = "http://replace-this-with-your-domain.com/"
+languageCode = "en-us"
+title = "Steam - a minimal theme for Hugo"
+theme = "hugo-steam-theme"
+disqusShortname = "spf13"
+paginate = 10
+
+[params]
+
+	title = "Steam"
+	subtitle = "a minimal theme for ~~Ghost~~ Hugo"
+	copyright = "Released under the MIT license."
+
+	# You can choose between green, orange, red and blue.
+	themeColor = "green"
+	# Enable Google Analytics be inserting your tracking code
+	googleAnalytics = ""
+
+	# To provide some metadata for search engines and the about section in the footer
+	# feel free to add a few information about you and your website.
+	name = "John Doe"
+	bio = "I'm just a theme. That's it. If you like my design clone [me](//github.com/digitalcraftsman/hugo-steam-theme) from Github. Thanks."
+	description = "Your description of the blog"
+	location = "" # optional
+	twitter = "spf13" # optional
+	github = "spf13" # optional
+
+	# Enable a comment system
+	# You can choose between Disqus or Google Plus by setting comments
+	# to disqus or googleplus. For using Disqus you need to enter your
+	# shortname in disqusShortname at the top of the configs. 
+	comments = "disqus"
+
+	# Customize or translate the strings
+	keepReadingStr = "Keep reading"
+	backtotopStr = "Back to top"
+	shareStr = "Share"
+	pageNotFoundTitle = "404 - Page not found"
