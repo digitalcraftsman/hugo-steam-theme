@@ -15,7 +15,7 @@
 	            {{ .Content }}
 	        </section>
 
-	        <section class="post-tags">
+	        <section class="post-tags" style="padding-bottom:60px;">
 	            <div class="post-meta tags">
 	            <i class="fa fa-fw fa-tag"></i>
 	            {{ range .Params.tags }}
@@ -23,6 +23,14 @@
 	            {{ end }}
 	            </div>
 	        </section>
+			
+			{{ if eq .Site.Params.comments "disqus" }}
+	        	{{ template "_internal/disqus.html" . }}
+	        {{ end }}
+			
+			{{ if eq .Site.Params.comments "googleplus" }}
+				{{ partial "googleplus-comments" . }}
+			{{ end }}
 
 	        <section class="share">
 	            <p class="backtotop"><a data-scroll href="#site-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#site-head"> {{ .Site.Params.backtotopStr }}</a></p>
