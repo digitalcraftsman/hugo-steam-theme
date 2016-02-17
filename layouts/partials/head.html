@@ -12,6 +12,14 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
+    {{ "<!-- RSS autodiscovery -->" | safeHTML }}
+    {{ if .RSSlink }}
+    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml"
+    title="{{ .Site.Title }}" />
+    <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml"
+    title="{{ .Site.Title }}" />
+    {{ end }}
+
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.2/normalize.min.css">
 
