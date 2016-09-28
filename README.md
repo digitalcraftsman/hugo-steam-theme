@@ -5,24 +5,10 @@ Steam is a minimal and customizable theme for bloggers and was developed by [Tom
 ![Screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-steam-theme/dev/images/screenshot.png)
 
 
-## Contents
-
-- [Installation](#installation)
-- [The config file](#the-config-file)
-- [Add links to the navigation](#add-links-to-the-navigation)
-- [Customize theme colors](#customize-theme-colors)
-- [Comments](#comments)
-- [Nearly finished](#nearly-finished)
-- [Contributing](#contributing)
-- [License](#license)
-- [Annotations](#annotations)
-
-
 ## Installation
 
 Inside the folder of your Hugo site run:
 
-    $ mkdir themes
     $ cd themes
     $ git clone https://github.com/digitalcraftsman/hugo-steam-theme.git
 
@@ -63,7 +49,7 @@ This theme features a comment system that's either powered by Disqus or Google P
 
 In order to see your site in action, run Hugo's built-in local server. 
 
-    $ hugo server -w
+    $ hugo server
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
@@ -80,4 +66,7 @@ This theme is released under the MIT license. For more information read the [Lic
 
 ## Annotations
 
-Thanks to [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
+Thanks to 
+
+- [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
+- [Seth Lilly](//github.com/sethlilly)
