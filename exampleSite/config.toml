@@ -24,6 +24,7 @@ paginate = 10
 	location = "" # optional
 	twitter = "spf13" # optional
 	github = "spf13" # optional
+  gitlab = "pcarranza"
 
 	# Enable a comment system
 	# You can choose between Disqus or Google Plus by setting comments
