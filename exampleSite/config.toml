@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-domain.com/"
+baseurl = "https://example.org"
 languageCode = "en-us"
 title = "Steam - a minimal theme for Hugo"
 theme = "hugo-steam-theme"
