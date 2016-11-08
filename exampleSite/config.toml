@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-domain.com/"
+baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "Steam - a minimal theme for Hugo"
 theme = "hugo-steam-theme"
@@ -23,14 +23,23 @@ paginate = 10
 	description = "Your description of the blog"
 	location = "" # optional
 	twitter = "spf13" # optional
+	linkedin = "" # optional
+	googleplus = "" # optional
+	facebook = "" # optional
+	instagram = "" # optional
 	github = "spf13" # optional
- 	gitlab = "" # optional
+	gitlab = "" # optional
+	bitbucket = "" # optional
 
 	# Enable a comment system
 	# You can choose between Disqus or Google Plus by setting comments
 	# to disqus or googleplus. For using Disqus you need to enter your
 	# shortname in disqusShortname at the top of the configs. 
 	comments = "disqus"
+
+	# By setting homeMaxPosts, home page will show limited number of posts and a 
+	# link to archive (/post/) instead of a paginated list of posts.
+	homeMaxPosts = 4
 
 	# Customize or translate the strings
 	keepReadingStr = "Keep reading"
