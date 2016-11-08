@@ -19,7 +19,7 @@
 	            <div class="post-meta tags">
 	            <i class="fa fa-fw fa-tag"></i>
 	            {{ range .Params.tags }}
-	            <a href="{{ $.Site.BaseURL }}tags/{{ . }}">{{ . }} </a>
+	            <a href="{{ $.Site.BaseURL }}tags/{{ . |urlize }}">{{ . }} </a>
 	            {{ end }}
 	            </div>
 	        </section>
