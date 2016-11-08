@@ -1,0 +1,22 @@
+{{ partial "head" . }}
+<body class="home-template">
+
+    {{ partial "header" . }}
+    {{ partial "navigation" . }}
+
+    <main class="content" role="main">
+    	<div class="terms-list">
+    		<ul>
+	            {{ $data := .Data }}
+	            {{ range $key, $value := .Data.Terms.ByCount }}
+	            <li><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ $value.Name |title }}</a> {{ $value.Count }}</li>
+	            {{ end }}
+            </ul>
+        </div>
+    </main>
+
+    {{ partial "footer" . }}
+    {{ partial "js" . }}
+
+</body>
+</html>

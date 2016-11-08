@@ -104,7 +104,8 @@ h1 {
 article,
 article.preview,
 a.archive-link,
-.article-nav {
+.article-nav,
+.terms-list {
   margin: 20px auto;
   max-width: 600px;
   width: 90%;
@@ -420,6 +421,17 @@ a.archive-link {
   /*color: #178b6b;*/
   text-decoration: none;
 }
+/* === Terms lists === */
+.terms-list ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.terms-list ul li {
+  margin: 0;
+  padding: 0;
+}
+
 /* === Extras === */
 .gist {
   margin-top: 1em;
