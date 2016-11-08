@@ -1,13 +1,4 @@
 {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
 {{ range $paginator.Pages }}
-<article class="preview">
-    <header>
-        <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <div class="post-meta"><time datetime="{{ .Date.Format "02 January 2006" }}">{{ .Date.Format "02 January 2006" }}</time></div>
-    </header>
-    <section class="post-excerpt">
-        <a class="excerptlink" href="{{ .Permalink }}"><p>{{ .Description | markdownify }}&hellip;</p></a>
-        <p class="readmore"><a href="{{ .Permalink }}">{{ .Site.Params.keepReadingStr }} <i class="fa fa-angle-double-right" style="padding-left: 5px;"></i></a></p>
-    </section>
-</article>
+	{{ partial "post-list-item" . }}
 {{ end }}
