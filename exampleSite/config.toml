@@ -23,8 +23,13 @@ paginate = 10
 	description = "Your description of the blog"
 	location = "" # optional
 	twitter = "spf13" # optional
+	linkedin = "" # optional
+	googleplus = "" # optional
+	facebook = "" # optional
+	instagram = "" # optional
 	github = "spf13" # optional
- 	gitlab = "" # optional
+	gitlab = "" # optional
+	bitbucket = "" # optional
 
 	# Enable a comment system
 	# You can choose between Disqus or Google Plus by setting comments
