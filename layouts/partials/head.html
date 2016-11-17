@@ -13,10 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
     {{ "<!-- RSS autodiscovery -->" | safeHTML }}
-    {{ if .RSSlink }}
-    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml"
+    {{ if .RSSLink }}
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml"
     title="{{ .Site.Title }}" />
-    <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml"
+    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml"
     title="{{ .Site.Title }}" />
     {{ end }}
 

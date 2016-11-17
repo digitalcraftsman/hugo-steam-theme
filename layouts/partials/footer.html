@@ -10,7 +10,7 @@
 		    {{ with .Site.Params.gitlab }}
 		    <a href="//gitlab.com/u/{{ . }}" target="_blank" title="GitLab"><i class="fa fa-2x fa-fw fa-gitlab"></i> <span class="hidden">GitLab</span></a>&nbsp;
 		    {{ end }}
-		    <a href="{{ .RSSlink }}" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
+		    <a href="{{ .RSSLink }}" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
 		</section>
 
 		<section class="copyright">&copy; {{.Now.Format "2006"}} <a href="{{ .Site.BaseURL }}">{{ .Site.Params.name }}</a>. {{ .Site.Params.copyright | markdownify }}</section>
