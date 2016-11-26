@@ -1,4 +1,0 @@
-{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
-{{ range $paginator.Pages }}
-	{{ partial "post-list-item" . }}
-{{ end }}

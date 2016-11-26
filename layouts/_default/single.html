@@ -18,7 +18,7 @@
         <div class="post-meta tags">
             <i class="fa fa-fw fa-tag"></i>
             {{ range .Params.tags }}
-                {{ $url := printf "tags/%s" ( . |urlize) }}
+                {{ $url := printf "tags/%s" ( . | urlize) }}
                 <a href="{{ $url | absURL }}">{{ . }} </a>
             {{ end }}
         </div>
