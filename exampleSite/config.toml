@@ -3,43 +3,35 @@ languageCode = "en-us"
 title = "Steam - a minimal theme for Hugo"
 theme = "hugo-steam-theme"
 disqusShortname = "spf13"
+# Enable Google Analytics be inserting your tracking code
+googleAnalytics = ""
+# Number of posts per page
 paginate = 10
 
 [params]
-
 	title = "Steam"
 	subtitle = "a minimal theme for ~~Ghost~~ Hugo"
 	copyright = "Released under the MIT license."
 
 	# You can choose between green, orange, red and blue.
 	themeColor = "green"
-	# Enable Google Analytics be inserting your tracking code
-	googleAnalytics = ""
 
 	# To provide some metadata for search engines and the about section in the footer
 	# feel free to add a few information about you and your website.
 	name = "John Doe"
-	bio = "I'm just a theme. That's it. If you like my design clone [me](//github.com/digitalcraftsman/hugo-steam-theme) from Github. Thanks."
+	bio = "programmer - blogger - coffee aficionado"
 	description = "Your description of the blog"
-	location = "" # optional
-	twitter = "spf13" # optional
-	linkedin = "" # optional
-	googleplus = "" # optional
-	facebook = "" # optional
-	instagram = "" # optional
-	github = "spf13" # optional
-	gitlab = "" # optional
-	bitbucket = "" # optional
-
-	# Enable a comment system
-	# You can choose between Disqus or Google Plus by setting comments
-	# to disqus or googleplus. For using Disqus you need to enter your
-	# shortname in disqusShortname at the top of the configs. 
-	comments = "disqus"
-
-	# By setting homeMaxPosts, home page will show limited number of posts and a 
-	# link to archive (/post/) instead of a paginated list of posts.
-	homeMaxPosts = 4
+	
+	# Link your social networks (optional)
+	location = ""
+	twitter = "spf13"
+	linkedin = ""
+	googleplus = ""
+	facebook = ""
+	instagram = ""
+	github = "spf13"
+	gitlab = ""
+	bitbucket = ""
 
 	# Customize or translate the strings
 	keepReadingStr = "Keep reading"
