@@ -15,22 +15,15 @@
 
     <section class="post-tags" style="padding-bottom:60px;">
         <div class="post-meta tags">
-        <i class="fa fa-fw fa-tag"></i>
-        {{ range .Params.tags }}
-        {{ $url := printf "tags/%s" ( . |urlize) }}
-        <a href="{{ $url | absURL }}">{{ . }} </a>
-        {{ end }}
+            <i class="fa fa-fw fa-tag"></i>
+            {{ range .Params.tags }}
+                {{ $url := printf "tags/%s" ( . |urlize) }}
+                <a href="{{ $url | absURL }}">{{ . }} </a>
+            {{ end }}
         </div>
     </section>
 	
-	{{ if eq .Site.Params.comments "disqus" }}
-    	{{ template "_internal/disqus.html" . }}
-    {{ end }}
-	
-	{{ if eq .Site.Params.comments "googleplus" }}
-		{{ partial "googleplus-comments" . }}
-	{{ end }}
-
+    {{ template "_internal/disqus.html" . }}
     {{ partial "share" . }}
 
     <footer class="post-footer">
