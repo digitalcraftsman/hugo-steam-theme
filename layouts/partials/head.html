@@ -21,12 +21,12 @@
     {{ end }}
 
     <link rel="shortcut icon" href="{{ "img/favicon.ico" | absURL }}">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.2/normalize.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
     {{ "<!-- Stylesheets -->" | safeHTML }}
     <link rel="stylesheet" href="{{ "css/screen.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/github.css" | absURL }}">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
 
     {{ "<!-- Stylesheet for theme color -->" | safeHTML }}
     {{ partial (printf "themes/%s-theme" .Site.Params.themeColor) . }}
