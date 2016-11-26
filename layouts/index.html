@@ -1,25 +1,13 @@
-{{ partial "head" . }}
-<body class="home-template">
-
-    {{ partial "header" . }}
-    {{ partial "navigation" . }}
-
-    <main class="content" role="main">
-    	{{ if .Site.Params.homeMaxPosts }}
-            {{ range first .Site.Params.homeMaxPosts (where .Data.Pages.ByDate.Reverse "Type" "post") }}
-				{{ partial "post-list-item" . }}
-			{{ end }}
-			<nav class="pagination" role="pagination">
-			    <a class="archive-link" href="/post/">{{ .Site.Params.archiveStr }}</a>
-			</nav>
-    	{{ else }}
-	        {{ partial "post-list" . }}
-	        {{ partial "pagination" . }}
-	    {{ end }}
-    </main>
-
-    {{ partial "footer" . }}
-    {{ partial "js" . }}
-
-</body>
-</html>
+{{ define "main" }}
+	{{ if .Site.Params.homeMaxPosts }}
+        {{ range first .Site.Params.homeMaxPosts (where .Data.Pages.ByDate.Reverse "Type" "post") }}
+			{{ partial "post-list-item" . }}
+		{{ end }}
+		<nav class="pagination" role="pagination">
+		    <a class="archive-link" href="/post/">{{ .Site.Params.archiveStr }}</a>
+		</nav>
+	{{ else }}
+        {{ partial "post-list" . }}
+        {{ partial "pagination" . }}
+    {{ end }}
+{{ end }}   

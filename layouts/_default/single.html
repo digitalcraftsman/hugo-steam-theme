@@ -1,22 +1,10 @@
-{{ partial "head" . }}
-<body class="post-template">
+{{ define "main" }}
+<article class="post">
+    <header>
+    <h1 class="post-title">{{ .Title }}</h1>
 
-    {{ partial "header" . }}
-    {{ partial "navigation" . }}
-
-    <main class="content" role="main">
-	    <article class="post">
-	        <header>
-	        <h1 class="post-title">{{ .Title }}</h1>
-
-	        <section class="post-content">
-	            {{ .Content }}
-	        </section>
-	    </article>
-	</main>
-
-    {{ partial "footer" . }}
-    {{ partial "js" . }}
-
-</body>
-</html>
+    <section class="post-content">
+        {{ .Content }}
+    </section>
+</article>
+{{ end }}
