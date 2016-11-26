@@ -5,7 +5,7 @@ description = "A minimal theme for bloggers."
 homepage = "//github.com/digitalcraftsman/hugo-steam-theme"
 tags = ["google analytics", "disqus", "blog", "minimal"]
 features = []
-min_version = 0.14
+min_version = 0.17
 
 [author]
   name = "Digitalcraftsman"
