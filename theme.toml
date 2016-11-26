@@ -3,8 +3,8 @@ license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 description = "A minimal theme for bloggers."
 homepage = "//github.com/digitalcraftsman/hugo-steam-theme"
-tags = ["google analytics", "google plus", "disqus", "ghost", "blog", "minimal", "custom themes", "single column"]
-features = ["", ""]
+tags = ["google analytics", "disqus", "blog", "minimal"]
+features = []
 min_version = 0.14
 
 [author]

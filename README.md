@@ -69,4 +69,4 @@ This theme is released under the MIT license. For more information read the [Lic
 Thanks to 
 
 - [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
-- [Seth Lilly](//github.com/sethlilly)
+- [Seth Lilly](//github.com/sethlilly) and [Tommaso Barbato](//github.com/epistrephein) for developing the original version(s) of this theme
