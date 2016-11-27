@@ -17,7 +17,9 @@ paginate = 10
 	themeColor = "green"
 
 	# Link custom assets relative to /static
-	favicon    = "favicon.ico"
+	favicon   = "favicon.ico"
+	customCSS = []
+	customJS  = []
 
 	# To provide some metadata for search engines and the about section in the footer
 	# feel free to add a few information about you and your website.
