@@ -37,5 +37,6 @@
     {{ end }}
 
     {{ "<!-- Stylesheet for theme color -->" | safeHTML }}
-    {{ partial (printf "themes/%s-theme" .Site.Params.themeColor) . }}
+    {{ $color := default "green" .Site.Params.themecolor }}
+    {{ partial (printf "themes/%s-theme" $color) . }}
 </head>
