@@ -28,6 +28,11 @@
     <link rel="stylesheet" href="{{ "css/github.css" | absURL }}">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
 
+    {{ with .Site.Params.favicon }}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
+    <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
+    {{ end }}
+
     {{ "<!-- Stylesheet for theme color -->" | safeHTML }}
     {{ partial (printf "themes/%s-theme" .Site.Params.themeColor) . }}
 </head>
