@@ -14,7 +14,7 @@ paginate = 10
 	copyright = "Released under the MIT license."
 
 	# You can choose between green, orange, red and blue.
-	themeColor = "green"
+	themecolor = "green"
 
 	# Link custom assets relative to /static
 	favicon   = "favicon.ico"
