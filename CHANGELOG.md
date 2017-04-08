@@ -1,11 +1,15 @@
 # Changelog
 
-### 27th November 2016
+## 8th April 2017
+
+`.Now` will be deprecated with Hugo v0.20. Hence the required minimum version of Hugo is v0.20.
+
+## 27th November 2016
 
 - `favicon` allows you to link a custom favicon by adding a path relative to the `static` folder
 - with `customCSS` and `customJS` you can link your own stylesheets and scripts. The files have to be link relative to `static` as well.
 
-### 26th November 2016
+## 26th November 2016
 
 Some of the new features of Hugo v0.17 were now introduced in this theme. Since some changes are not backwards compatible you have to update to Hugo v0.17 or newer versions.
 
