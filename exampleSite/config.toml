@@ -15,6 +15,10 @@ paginate = 10
 
 	# You can choose between green, orange, red and blue.
 	themecolor = "green"
+	
+	# Use Hugo's summary in post list when no description is provided in taml header? 
+	# If false, ellipsis (...) is shown instead.
+	useSummaryIfNoDescription = true
 
 	# Link custom assets relative to /static
 	favicon   = "favicon.ico"
