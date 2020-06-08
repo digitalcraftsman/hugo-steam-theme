@@ -2,6 +2,8 @@
 
 Steam is a minimal and customizable theme for bloggers and was developed by [Tommaso Barbato](//github.com/epistrephein). He created it as a slightly adapted version of the [Vapor](//github.com/sethlilly/Vapor) Ghost theme by [Seth Lilly](//github.com/sethlilly). Noteworthy features of this Hugo port are the integration of a comment-system powered by Disqus, the customizable appearance by changing theme colors, support for RSS feeds, syntax highlighting via Highlight.js for source code and the optional use of Google Analytics. Enough to read. Let's take the first steps to get started.
 
+#### Please note that this theme is no longer maintained.
+
 ![Screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-steam-theme/dev/images/screenshot.png)
 
 
